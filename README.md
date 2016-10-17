@@ -50,9 +50,9 @@ Similarly, any calls to `glutLeaveMainLoop` should be replaced by
 
 ```c
 #ifndef __APPLE__
-      glutLeaveMainLoop();
+  glutLeaveMainLoop();
 #else
-      exit(0);
+  exit(0);
 #endif
 ```
 
