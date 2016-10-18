@@ -28,7 +28,7 @@ else(USE_PACKAGE_MANAGER)
   # Assimp
   add_library(assimp STATIC IMPORTED GLOBAL)
   set_target_properties(assimp PROPERTIES
-    IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/assimp/lib/libassimp.so.3.0.1264"
+    IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/assimp/lib/libassimp.so.3.2.0"
     INTERFACE_INCLUDE_DIRECTORIES "${CMAKE_CURRENT_SOURCE_DIR}/assimp/inc"
   )
   set(ASSIMP_LIBRARIES assimp)
